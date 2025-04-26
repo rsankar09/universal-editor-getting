@@ -12,6 +12,8 @@ import {
   loadCSS,
 } from './aem.js';
 
+import('../tools/sidekick/aem-genai-variations.js');
+
 /**
  * Moves all the attributes from a given elmenet to another given element.
  * @param {Element} from the element to copy attributes from
